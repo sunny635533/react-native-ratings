@@ -17,6 +17,7 @@ declare module 'react-native-ratings' {
     imageSize?: number,
     onFinishRating?: (rating: number) => void,
     showRating?: boolean,
+    fractions?: number;
   }
 
   export class Rating extends React.Component<RatingProps>  {
