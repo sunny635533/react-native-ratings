@@ -21,7 +21,7 @@ declare module 'react-native-ratings' {
   }
 
   export class Rating extends React.Component<RatingProps>  {
-
+    setCurrentRating(value: number);
   }
 
   export interface AirbnbRatingProps extends React.Props<AirbnbRating> {
